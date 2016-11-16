@@ -1,0 +1,156 @@
+ body {
+    background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/bg.png");
+    font-family: Trebuchet MS;
+     margin:0;
+    
+}
+
+.content-box{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position:relative;
+    width:940px;
+    padding: :none;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 50px;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+    height: auto;
+}
+
+li {
+    float: left;
+    width: 89px;
+}
+.nic
+{
+    background-color: #C9434F;
+    border-radius: 10px 0px 0px 10px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #C9434F;    
+}
+.colorandfont{
+    color: #C9434F; 
+    font-weight: bold
+}
+
+.make-White{
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+}
+.section1{
+    width: 50%;
+    float: left;
+}
+.section2{
+    width: 50%;
+    float: right;    
+}
+.desc1{
+    float: left;
+}
+.desc2{
+    float: left;
+}
+.secondblock1{
+    width: 230px;
+    float: left;
+}
+.secondblock2{
+     width: 100px;
+    float: left;
+}
+.secondblock3{
+    float: left;
+}
+
+#imageborder{
+    border: 1px solid;
+    border-color: darkgrey;    
+}
+.blogroll{
+    float: left;
+}
+.social{
+    float: right;
+}
+
+div{
+    display: block;
+}
+#changeColor{
+    display: block;
+    overflow: hidden;
+    
+}
+
+#changeColor:hover p {
+    color: yellow;
+}
+#changeColor:hover u {
+    color: yellow;
+}
+#changeColor:hover .fudge {
+    color: yellow ;
+}
+#changeColor:hover {
+    background-color: #C9434F ;
+    color: white;
+}
+p.links:hover a{
+        background-color: #C9434F;
+        color:#FFFFFF;
+        }
+        
+p.links:hover {
+        background-color: #C9434F;
+        color:#FFFFFF;
+}
+
+.padding{
+    padding: 50px 30px 50px 80px;
+}
+.margin{
+    margin: 30px 0 0 0;
+}
+.alink
+{
+    text-decoration:none; 
+    color:#444444;
+}
+
+.footer{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+}
+#hr1{
+    border-top: 1px rgba(0, 0, 0, 0.1);
+}
+#hr2{
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
